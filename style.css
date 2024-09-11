@@ -340,20 +340,29 @@ section {
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
-  flex-direction: row;
-  gap: 1rem;
-  justify-content: space-around;
+  /*flex-direction: row;*/
+  gap: 15px;
+  /*gap: 1rem;*/ 
+  /*justify-content: space-around;*/
 }
 
 article {
   display: flex;
-  width: 10rem;
+  align-items: center;
+  width: 100%;
+  /*width: 10rem;*/
+  max-width: 300px;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 10px;
+  /*gap: 0.5rem;*/
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: calc(50 - 10px);
 }
 
 article .icon {
   cursor: default;
+  width: 24px;
+  height: 24px;
 }
 
 /* PROJECTS SECTION */
