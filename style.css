@@ -151,7 +151,7 @@ a:hover {
 section {
   padding-top: 4vh;
   height: 96vh;
-  margin: 0 10rem;
+  margin: 5%;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -334,7 +334,10 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin: 2%;
 }
+
+
 
 .article-container {
   display: flex;
@@ -349,7 +352,7 @@ article {
   align-items: center;
   width: 100%;
   max-width: 300px;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 10px;
 }
 
