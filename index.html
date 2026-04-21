@@ -1,543 +1,1144 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-  </head>
-  <body>
-    <nav id="desktop-nav">
-      <div class="logo">Atandiwe Ndamase</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#certificates">Certificates</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Atandiwe Ndamase</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#certificates" onclick="toggleMenu()">Certificates</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/Picture -1.JPG" alt="Atandiwe Ndamase profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Atandiwe Ndamase</h1>
-        <p class="section__text__p2">Microsoft Power Platform Developer</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/resume2.pdf')"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/atandiwe-thandiwe-ndamase/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/AtandiweNdamase'"
-          />
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/myabout.jpg"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>2+ years <br />Automation Developer</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />B.Sc. Honors Degree<br/>National Diploma in Multi-Platform Software Development</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-              I am a 25-year-old woman in tech, transitioning from a geological analytical background to technology in 2021. 
-              As a Microsoft Power Platform Developer, I specialize in application development with Power Apps, 
-              business process automation using UiPath, and data transformation through Power BI. 
-              My expertise includes Agile project management, design thinking, and a passion for data analytics and Generative AI. 
-              I deliver user-centered solutions that enhance productivity and innovation.My geological background has honed my skills in data interpretation, predictive modeling, and geospatial analysis.
-              With experience in LeepFrog Seequent and ArcGIS,I’ve worked with complex geological data and used it to build predictive models, translating those insights into impactful data-driven decisions.
-            </p>
-          </div>
-        </div>
-      </div>
-      
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Automation Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>PowerQuery</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>UiPath</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Power Apps</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Power Automate</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>SharePoint</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Power BI</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Geological experience</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>ArcGIS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Microscope Analysis</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Geo Modelling</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Multi-Criteria Analysis</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Sample Preparation</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Report Writing</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Software Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Azure</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Automation & Microsoft Power Platform Developer and AI enthusiast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML & CSS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
+    :root {
+      --bg: #000;
+      --surface: #0d0d0d;
+      --surface2: #161616;
+      --border: rgba(255,255,255,0.08);
+      --border-light: rgba(255,255,255,0.15);
+      --text: #f5f5f5;
+      --text-muted: rgba(245,245,245,0.45);
+      --text-sub: rgba(245,245,245,0.7);
+      --accent: #fff;
+      --radius: 16px;
+      --nav-h: 64px;
+    }
 
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Agile Methodologies</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-    
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Seequent</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>C#</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              
-            </div>
-          </div>
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      height: var(--nav-h);
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 48px;
+      background: rgba(0,0,0,0.72);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-logo {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: 17px;
+      letter-spacing: -0.3px;
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 36px;
+      list-style: none;
+      align-items: center;
+    }
+
+    .nav-links a {
+      color: var(--text-sub);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0.01em;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--text); }
+
+    .btn-cv {
+      background: var(--text);
+      color: #000;
+      border: none;
+      padding: 8px 20px;
+      border-radius: 100px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      text-decoration: none;
+      transition: opacity 0.2s, transform 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-cv:hover { opacity: 0.88; transform: translateY(-1px); }
+
+    /* ── HERO ── */
+    #hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 0 48px;
+      padding-top: var(--nav-h);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+      background-size: 80px 80px;
+      mask-image: radial-gradient(ellipse 80% 60% at 50% 50%, black 30%, transparent 100%);
+    }
+
+    .hero-glow {
+      position: absolute;
+      width: 600px;
+      height: 600px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(255,255,255,0.04) 0%, transparent 70%);
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+    }
+
+    .hero-content {
+      max-width: 860px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid var(--border-light);
+      border-radius: 100px;
+      padding: 5px 14px;
+      font-size: 12px;
+      color: var(--text-sub);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 32px;
+      animation: fadeUp 0.6s ease both;
+    }
+
+    .hero-tag::before {
+      content: '';
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: #4ade80;
+      display: block;
+    }
+
+    h1.hero-name {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: clamp(52px, 8vw, 100px);
+      line-height: 0.95;
+      letter-spacing: -3px;
+      color: var(--text);
+      margin-bottom: 24px;
+      animation: fadeUp 0.6s 0.1s ease both;
+    }
+
+    .hero-name span { color: var(--text-muted); }
+
+    .hero-role {
+      font-size: 18px;
+      color: var(--text-sub);
+      font-weight: 300;
+      max-width: 520px;
+      line-height: 1.6;
+      margin-bottom: 40px;
+      animation: fadeUp 0.6s 0.2s ease both;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      animation: fadeUp 0.6s 0.3s ease both;
+    }
+
+    .btn-primary {
+      background: var(--text);
+      color: #000;
+      border: none;
+      padding: 14px 28px;
+      border-radius: 100px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      cursor: pointer;
+      text-decoration: none;
+      transition: opacity 0.2s, transform 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .btn-primary:hover { opacity: 0.88; transform: translateY(-2px); }
+
+    .btn-secondary {
+      color: var(--text-sub);
+      border: 1px solid var(--border-light);
+      padding: 14px 28px;
+      border-radius: 100px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      cursor: pointer;
+      text-decoration: none;
+      background: transparent;
+      transition: border-color 0.2s, color 0.2s, transform 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .btn-secondary:hover { border-color: rgba(255,255,255,0.4); color: var(--text); transform: translateY(-2px); }
+
+    .hero-scroll {
+      position: absolute;
+      bottom: 40px; left: 48px;
+      font-size: 12px;
+      color: var(--text-muted);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      animation: fadeUp 0.6s 0.5s ease both;
+    }
+
+    .hero-scroll::after {
+      content: '';
+      width: 40px; height: 1px;
+      background: var(--text-muted);
+    }
+
+    /* ── SECTIONS ── */
+    section {
+      padding: 100px 48px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .section-label {
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+      font-weight: 500;
+    }
+
+    h2.section-title {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: clamp(32px, 4vw, 48px);
+      letter-spacing: -1.5px;
+      color: var(--text);
+      margin-bottom: 56px;
+      line-height: 1.1;
+    }
+
+    .divider {
+      width: 100%;
+      height: 1px;
+      background: var(--border);
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    /* ── ABOUT ── */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: start;
+    }
+
+    .about-text p {
+      color: var(--text-sub);
+      font-size: 17px;
+      line-height: 1.75;
+      font-weight: 300;
+      margin-bottom: 18px;
+    }
+
+    .about-text p:last-child { margin-bottom: 0; }
+
+    .about-meta {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .meta-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .meta-item:first-child { border-top: 1px solid var(--border); }
+
+    .meta-label {
+      font-size: 12px;
+      color: var(--text-muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .meta-value {
+      font-size: 14px;
+      color: var(--text-sub);
+      font-weight: 400;
+    }
+
+    .skills-section {
+      margin-top: 64px;
+    }
+
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill-chip {
+      border: 1px solid var(--border-light);
+      border-radius: 100px;
+      padding: 7px 16px;
+      font-size: 13px;
+      color: var(--text-sub);
+      background: transparent;
+      transition: border-color 0.2s, color 0.2s, background 0.2s;
+      cursor: default;
+    }
+
+    .skill-chip:hover {
+      border-color: rgba(255,255,255,0.35);
+      color: var(--text);
+      background: rgba(255,255,255,0.04);
+    }
+
+    /* ── EXPERIENCE ── */
+    .exp-list { display: flex; flex-direction: column; gap: 0; }
+
+    .exp-item {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 48px;
+      padding: 40px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .exp-item:first-child { border-top: 1px solid var(--border); }
+
+    .exp-meta { padding-top: 4px; }
+
+    .exp-period {
+      font-size: 12px;
+      color: var(--text-muted);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .exp-company {
+      font-family: 'Syne', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+
+    .exp-location {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .exp-role {
+      font-family: 'Syne', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 16px;
+      letter-spacing: -0.3px;
+    }
+
+    .exp-bullets {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .exp-bullets li {
+      font-size: 15px;
+      color: var(--text-sub);
+      font-weight: 300;
+      line-height: 1.55;
+      padding-left: 18px;
+      position: relative;
+    }
+
+    .exp-bullets li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--text-muted);
+      font-size: 12px;
+    }
+
+    /* ── PROJECTS ── */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px;
+      transition: border-color 0.25s, transform 0.25s, background 0.25s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .project-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at top left, rgba(255,255,255,0.04), transparent 60%);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .project-card:hover {
+      border-color: var(--border-light);
+      transform: translateY(-4px);
+      background: var(--surface2);
+    }
+
+    .project-card:hover::before { opacity: 1; }
+
+    .project-num {
+      font-family: 'Syne', sans-serif;
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+      letter-spacing: 0.05em;
+    }
+
+    .project-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 12px;
+      letter-spacing: -0.3px;
+    }
+
+    .project-desc {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      font-weight: 300;
+    }
+
+    .project-badge {
+      margin-top: 18px;
+      display: inline-block;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      padding: 4px 10px;
+      border-radius: 100px;
+    }
+
+    .project-badge.win {
+      color: #4ade80;
+      border-color: rgba(74,222,128,0.25);
+    }
+
+    /* ── CERTIFICATIONS ── */
+    .cert-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .cert-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 22px 0;
+      border-bottom: 1px solid var(--border);
+      gap: 24px;
+    }
+
+    .cert-item:first-child { border-top: 1px solid var(--border); }
+
+    .cert-name {
+      font-size: 15px;
+      color: var(--text-sub);
+      font-weight: 400;
+      flex: 1;
+    }
+
+    .cert-issuer {
+      font-size: 13px;
+      color: var(--text-muted);
+      min-width: 140px;
+      text-align: right;
+    }
+
+    .cert-year {
+      font-size: 12px;
+      color: var(--text-muted);
+      font-variant-numeric: tabular-nums;
+      min-width: 48px;
+      text-align: right;
+    }
+
+    .cert-badge {
+      font-size: 11px;
+      background: rgba(74,222,128,0.08);
+      color: #4ade80;
+      border: 1px solid rgba(74,222,128,0.2);
+      padding: 3px 10px;
+      border-radius: 100px;
+      white-space: nowrap;
+    }
+
+    /* ── CONTACT ── */
+    #contact {
+      padding-bottom: 120px;
+    }
+
+    .contact-inner {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 72px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .contact-inner::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 50% at 50% 0%, rgba(255,255,255,0.04), transparent 70%);
+      pointer-events: none;
+    }
+
+    .contact-eyebrow {
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+
+    .contact-heading {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(36px, 5vw, 60px);
+      font-weight: 800;
+      letter-spacing: -2px;
+      color: var(--text);
+      margin-bottom: 20px;
+      line-height: 1;
+    }
+
+    .contact-sub {
+      font-size: 16px;
+      color: var(--text-muted);
+      margin-bottom: 48px;
+      font-weight: 300;
+    }
+
+    .contact-links {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .contact-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      border: 1px solid var(--border-light);
+      border-radius: 100px;
+      padding: 12px 24px;
+      font-size: 14px;
+      color: var(--text-sub);
+      text-decoration: none;
+      transition: border-color 0.2s, color 0.2s, background 0.2s, transform 0.15s;
+    }
+
+    .contact-link:hover {
+      border-color: rgba(255,255,255,0.4);
+      color: var(--text);
+      background: rgba(255,255,255,0.04);
+      transform: translateY(-2px);
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 48px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .footer-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .footer-brand {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      color: var(--text);
+    }
+
+    .footer-tagline {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .footer-logos-title {
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+
+    .footer-logos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 28px;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .logo-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 7px;
+      opacity: 0.4;
+      transition: opacity 0.2s;
+      cursor: default;
+    }
+
+    .logo-item:hover { opacity: 0.85; }
+
+    .logo-item svg { display: block; }
+
+    .logo-label {
+      font-size: 10px;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+    }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+    }
+
+    .footer-copy {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(22px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.65s ease, transform 0.65s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ── MOBILE ── */
+    @media (max-width: 768px) {
+      nav { padding: 0 24px; }
+      .nav-links { display: none; }
+      #hero { padding: 0 24px; padding-top: var(--nav-h); }
+      section { padding: 70px 24px; }
+      .about-grid { grid-template-columns: 1fr; gap: 40px; }
+      .exp-item { grid-template-columns: 1fr; gap: 16px; }
+      .contact-inner { padding: 40px 24px; }
+      footer { padding: 40px 24px; }
+      .footer-top { flex-direction: column; align-items: flex-start; gap: 16px; }
+      .footer-bottom { flex-direction: column; gap: 8px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="#hero">AN.</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="btn-cv" href="/assets/Atandiwe's CV 2026.pdf" download>
+      <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor"><path d="M8 12l-4-4h2.5V4h3v4H12L8 12z"/><rect x="2" y="13" width="12" height="1.5" rx=".75"/></svg>
+      Download CV
+    </a>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <div class="hero-tag">Available for opportunities · Cape Town, SA</div>
+      <h1 class="hero-name">Atandiwe<br /><span>Ndamase</span></h1>
+      <p class="hero-role">Automation Developer & Power Platform Specialist building AI-driven enterprise solutions that actually matter.</p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#projects">View Projects</a>
+        <a class="btn-secondary" href="#contact">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll">Scroll</div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <p class="section-label">About</p>
+    <h2 class="section-title reveal">Who I Am</h2>
+    <div class="about-grid reveal">
+      <div class="about-text">
+        <p>Automation Developer specializing in Microsoft Power Platform and AI-driven enterprise solutions with a track record of building things that scale.
+          I originally come from a geology background which built my analytical thinking and was the foundation of my love for technology 
+        </p>
+        <p>Experienced in building secure, scalable Power Apps integrated with automated workflows, implementing governance and ALM best practices, and deploying Azure-based applications.</p>
+        <p>Proven ability to translate business requirements into high-impact digital solutions that improve efficiency, data integrity, and user experience.</p>
+      </div>
+      <div class="about-meta">
+        <div class="meta-item">
+          <span class="meta-label">Location</span>
+          <span class="meta-value">Cape Town, South Africa</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Email</span>
+          <span class="meta-value">Thandiwendamase99@gmail.com</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Phone</span>
+          <span class="meta-value">+27 817 588 077</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Status</span>
+          <span class="meta-value" style="color:#4ade80;">● Open to work</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Focus</span>
+          <span class="meta-value">Power Platform · Azure · AI</span>
         </div>
       </div>
-      
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/powebi-project2.PNG"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Power BI Project 2</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/AtandiweNdamase/Power-BI'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://app.powerbi.com/groups/me/reports/52559770-ab59-4736-b119-3e8ea1e55f9a/a13db63fac047d30f714?experience=power-bi'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-      
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/2ndProject.PNG"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Power BI</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/AtandiweNdamase/Power-BI'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://app.powerbi.com/groups/me/reports/52559770-ab59-4736-b119-3e8ea1e55f9a/a13db63fac047d30f714?experience=power-bi'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/1stProject.PNG"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Mobile<br>Application</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/AshtonPadiachy/Soteria'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://drive.google.com/file/d/1y8iGkKVeQKbnUmMDegrm8hPLTcxW14z5/view?usp=drive_link'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/3project.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Power<br>Automate</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/AtandiweNdamase'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://make.powerautomate.com/environments/Default-a3f14f21-237f-4028-b978-425eb768a716/flows/shared/7cb6a492-a32f-4666-aff7-f401bccc2855?v3=false&v3survey=true'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-        </div>
+    </div>
+    <div class="skills-section reveal">
+      <p class="section-label" style="margin-bottom:20px;">Technical Skills</p>
+      <div class="skills-grid">
+        <span class="skill-chip">Microsoft Power Apps</span>
+        <span class="skill-chip">Power Automate</span>
+        <span class="skill-chip">Power BI</span>
+        <span class="skill-chip">ALM</span>
+        <span class="skill-chip">Copilot Studio</span>
+        <span class="skill-chip">AI Agent Development</span>
+        <span class="skill-chip">Azure Web Apps</span>
+        <span class="skill-chip">Azure</span>
+        <span class="skill-chip">Azure AI Studio</span>
+        <span class="skill-chip">UiPath RPA</span>
+        <span class="skill-chip">Make.com</span>
+        <span class="skill-chip">GitHub</span>
+        <span class="skill-chip">Azure DevOps</span>
+        <span class="skill-chip">HTML / CSS / JS</span>
+        <span class="skill-chip">Power Query</span>
+        <span class="skill-chip">GitHub Copilot</span>
+        <span class="skill-chip">Bolt.ai</span>
+        <span class="skill-chip">Google AI Studio</span>
+        <span class="skill-chip">Vercel V0</span>
+        <span class="skill-chip">Claude.ai</span>
+        <span class="skill-chip">ETL</span>
       </div>
-      
-    </section>
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:examplemail@gmail.com">thandiwendamase99@gmail.com</a></p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <p class="section-label">Experience</p>
+    <h2 class="section-title reveal">Work History</h2>
+    <div class="exp-list">
+
+      <div class="exp-item reveal">
+        <div class="exp-meta">
+          <p class="exp-period">2025 — Present</p>
+          <p class="exp-company">1Nebula</p>
+          <p class="exp-location">South Africa</p>
         </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com">atandiwe-thandiwe-ndamase</a></p>
-        </div>
-      </div>
-    </section>
-    <section id="Certificates">
-      <p class="section__text__p1">Browse my Certificates</p>
-      <h1 class="title">Certificates</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/powerpl-900.PNG"
-                alt="Certificate 1"
-                class="certificate-img"
-              />
-            </div>
-            <h2 class="experience-sub-title certificate-title">Power Platform</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 certificate-btn"
-                onclick="location.href='https://learn.microsoft.com/api/achievements/share/en-us/Atandiwe-7154/QBZ6NVFE?sharingId=4B382158E16BA98A'"
-              >
-                View
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/prompt.PNG"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title certificate-title">Generative AI</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 certificate-btn"
-                onclick="location.href='https://www.cloudskillsboost.google/public_profiles/0ab3274b-ea63-4295-9a37-ddb19f7d45f7/badges/8492176'"
-              >
-                View
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/geomodelling..PNG"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Geomodelling</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/AtandiweNdamase/Geomodelling-report.git'"
-              >
-                View
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#certificates">Certificates</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <div>
+          <p class="exp-role">Automation Developer</p>
+          <ul class="exp-bullets">
+            <li>Designed and deployed enterprise-grade Power Apps integrated with automated workflows to streamline business operations.</li>
+            <li>Implemented role-based access control, governance frameworks, and ALM strategies across Dev/Test/Prod environments.</li>
+            <li>Developed Copilot Studio AI agents to enhance employee self-service and reduce operational workload.</li>
+            <li>Automated HR data validation and discrepancy resolution across enterprise systems.</li>
+            <li>Built and deployed secure Azure Web Apps supporting scalable production solutions.</li>
           </ul>
         </div>
-      </nav>
-      <p>Copyright &#169; 2024 Atandiwe Ndamase. All Rights Reserved.</p>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+      </div>
+
+      <div class="exp-item reveal">
+        <div class="exp-meta">
+          <p class="exp-period">2023 — 2024</p>
+          <p class="exp-company">IOCO Digital (EOH)</p>
+          <p class="exp-location">South Africa</p>
+        </div>
+        <div>
+          <p class="exp-role">Automation Developer</p>
+          <ul class="exp-bullets">
+            <li>Transformed raw data using Power Query and built executive-level Power BI dashboards.</li>
+            <li>Developed internal Power Apps solutions improving operational transparency.</li>
+            <li>Automated job and tender alert workflows using UiPath RPA.</li>
+            <li>Collaborated with cross-functional Agile teams to deliver scalable digital solutions.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-item reveal">
+        <div class="exp-meta">
+          <p class="exp-period">2022 — 2023</p>
+          <p class="exp-company">Microsoft App Factory</p>
+          <p class="exp-location">South Africa</p>
+        </div>
+        <div>
+          <p class="exp-role">Power Platform Developer Intern</p>
+          <ul class="exp-bullets">
+            <li>Built custom asset management solutions using Power Apps and SharePoint.</li>
+            <li>Streamlined HR workflows through automation.</li>
+            <li>Built an Early Childhood Development app contributing to digital social innovation aligned with UN Sustainable Development goals.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <p class="section-label">Projects</p>
+    <h2 class="section-title reveal">Selected Work</h2>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <p class="project-num">01</p>
+        <h3 class="project-title">Merchant ID Governance Application</h3>
+        <p class="project-desc">Built a governed Power Apps solution with RBAC, environment strategy, and full ALM implementation for enterprise-grade identity management for largest retail group in South Africa(3000+ stores).</p>
+        <span class="project-badge">Power Apps · RBAC · ALM</span>
+      </div>
+
+      <div class="project-card reveal">
+        <p class="project-num">02</p>
+        <h3 class="project-title">Mobile Upgrade AI Assistant </h3>
+        <p class="project-desc">Built a Copilot Studio agent for SA's largest retail group.Agent automates employee mobile upgrade workflows, reducing operational workload and improving self-service capabilities.</p>
+        <span class="project-badge">Copilot Studio · AI Agent · App service</span>
+      </div>
+
+      <div class="project-card reveal">
+        <p class="project-num">03</p>
+        <h3 class="project-title">HR Data Reconciliation Automation</h3>
+        <p class="project-desc">Automated workflows that detect and resolve cross-system HR data discrepancies, ensuring data integrity across enterprise platforms.</p>
+        <span class="project-badge">Power Automate · Azure</span>
+      </div>
+
+      <div class="project-card reveal">
+        <p class="project-num">04</p>
+        <h3 class="project-title">Anti-Corruption Transparency App</h3>
+        <p class="project-desc">Internal Power Apps application promoting organisational accountability and structured reporting for compliance and governance teams.</p>
+        <span class="project-badge">Power Apps · Governance</span>
+      </div>
+
+      <div class="project-card reveal">
+        <p class="project-num">05</p>
+        <h3 class="project-title">KidReady App</h3>
+        <p class="project-desc">Built an Early Childhood Development app bridging the gap between parents and educators — providing caregivers with the tools to support their children's growth and to educate adults about behavioral disorders in ECD.</p>
+        <span class="project-badge win">C# .NET framework · 🏆 Best Innovative Solution</span>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <p class="section-label">04 — Certifications</p>
+    <h2 class="section-title reveal">Credentials & Awards</h2>
+    <div class="cert-list">
+
+      <div class="cert-item reveal">
+        <span class="cert-name">Microsoft Certified: Azure Fundamentals</span>
+        <span class="cert-issuer">Microsoft</span>
+        <span class="cert-year">2025</span>
+      </div>
+
+      <div class="cert-item reveal">
+        <span class="cert-name">Google Data Analytics Certification</span>
+        <span class="cert-issuer">Google</span>
+        <span class="cert-year">2025</span>
+      </div>
+
+      <div class="cert-item reveal">
+        <span class="cert-name">Generative AI & Large Language Models</span>
+        <span class="cert-issuer">Google Cloud</span>
+        <span class="cert-year">2024</span>
+      </div>
+
+      <div class="cert-item reveal">
+        <span class="cert-name">AfriHack Connect Hackathon</span>
+        <span class="cert-issuer">AfriHack</span>
+        <span class="cert-year">2024</span>
+        <span class="cert-badge">1st Prize Winner</span>
+      </div>
+
+      <div class="cert-item reveal">
+        <span class="cert-name">BRICS Future Skills Challenge — Dragons Den, RPA Technical Challenge</span>
+        <span class="cert-issuer">BRICS</span>
+        <span class="cert-year">2023</span>
+      </div>
+
+      <div class="cert-item reveal">
+        <span class="cert-name">leapfrog Geo Fundamentals</span>
+        <span class="cert-issuer">Seequent</span>
+        <span class="cert-year">2021</span>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-inner reveal">
+      <p class="contact-eyebrow">Contact</p>
+      <h2 class="contact-heading">Let's Build<br/>Something.</h2>
+      <p class="contact-sub">Have a project in mind? I'd love to hear about it.</p>
+      <div class="contact-links">
+        <a class="contact-link" href="mailto:Thandiwendamase99@gmail.com">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          Thandiwendamase99@gmail.com
+        </a>
+        <a class="contact-link" href="tel:+27817588077">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.9.5 2.9.7a2 2 0 0 1 1.7 2z"/></svg>
+          +27 817 588 077
+        </a>
+        <a class="contact-link" href="https://github.com/atandiwendamase" target="_blank" rel="noopener">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.15-1.1-1.46-1.1-1.46-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.8c.85 0 1.71.11 2.51.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12c0-5.52-4.48-10-10-10z"/></svg>
+          GitHub
+        </a>
+        <a class="contact-link" href="https://linkedin.com/in/atandiwe-ndamase" target="_blank" rel="noopener">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div>
+        <p class="footer-brand">Atandiwe Ndamase</p>
+        <p class="footer-tagline">Automation Developer · Power Platform Specialist</p>
+      </div>
+      <a class="btn-cv" href="/assets/Atandiwe's CV 2026.pdf" download style="font-size:14px; padding:10px 24px;">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 12l-4-4h2.5V4h3v4H12L8 12z"/><rect x="2" y="13" width="12" height="1.5" rx=".75"/></svg>
+        Download CV
+      </a>
+    </div>
+
+    <p class="footer-logos-title">Tech Stack</p>
+    <div class="footer-logos">
+
+      <!-- Microsoft Power Platform -->
+      <div class="logo-item">
+        <img src="assets/logo-power-platform.png" alt="Power Platform" width="32" height="32" />
+        <span class="logo-label">Power Platform</span>
+      </div>
+
+      <!-- Power Apps -->
+      <div class="logo-item">
+        <img src="assets/logo-powerapps.png" alt="Power Apps" width="32" height="32" />
+        <span class="logo-label">Power Apps</span>
+      </div>
+
+      <!-- Power Automate -->
+      <div class="logo-item">
+        <img src="assets/Logo-pa.png" alt="Power Automate" width="32" height="32" />
+        <span class="logo-label">Power Automate</span>
+      </div>
+
+      <!-- Power BI -->
+      <div class="logo-item">
+        <img src="assets/logo-powerbi.png" alt="Power BI" width="32" height="32" />
+        <span class="logo-label">Power BI</span>
+      </div>
+
+      <!-- Azure -->
+      <div class="logo-item">
+        <img src="assets/logo-azure.png" alt="Azure" width="32" height="32" />
+        <span class="logo-label">Azure</span>
+      </div>
+
+      <!-- Copilot Studio -->
+      <div class="logo-item">
+        <img src="assets/copilot_studio-logo.png" alt="Copilot Studio" width="32" height="32" />
+        <span class="logo-label">Copilot Studio</span>
+      </div>
+
+      <!-- UiPath -->
+      <div class="logo-item">
+        <img src="assets/uipath-logo.png" alt="UiPath" width="32" height="32" />
+        <span class="logo-label">UiPath</span>
+      </div>
+
+      <!-- Make.com -->
+      <div class="logo-item">
+        <img src="assets/Make-app-icon.png" alt="Make.com" width="32" height="32" />
+        <span class="logo-label">Make.com</span>
+      </div>
+
+      <!-- GitHub -->
+      <div class="logo-item">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <rect width="32" height="32" rx="6" fill="#24292E"/>
+          <path d="M16 7C11.03 7 7 11.03 7 16c0 3.98 2.58 7.36 6.16 8.55.45.08.61-.2.61-.43v-1.53c-2.5.54-3.03-1.2-3.03-1.2-.41-1.04-.99-1.31-.99-1.31-.81-.56.06-.54.06-.54.9.06 1.37.92 1.37.92.8 1.37 2.1.97 2.61.74.08-.58.31-.97.57-1.19-1.99-.23-4.09-1-4.09-4.44 0-.98.35-1.78.92-2.41-.09-.23-.4-1.14.09-2.38 0 0 .75-.24 2.47.92a8.6 8.6 0 0 1 2.25-.3c.76 0 1.53.1 2.25.3 1.72-1.16 2.47-.92 2.47-.92.49 1.24.18 2.15.09 2.38.57.63.92 1.43.92 2.41 0 3.45-2.1 4.21-4.1 4.43.32.28.61.83.61 1.67v2.47c0 .24.16.52.62.43A9.01 9.01 0 0 0 25 16c0-4.97-4.03-9-9-9z" fill="white"/>
+        </svg>
+        <span class="logo-label">GitHub</span>
+      </div>
+
+      <!-- Azure DevOps -->
+      <div class="logo-item">
+        <img src="assets/devOps-logo.png" alt="Azure DevOps" width="32" height="32" />
+        <span class="logo-label">Azure DevOps</span>
+      </div>
+
+      <!-- Google Cloud -->
+      <div class="logo-item">
+        <img src="assets/googel-logo.png" alt="Google Cloud" width="32" height="32" />
+        <span class="logo-label">Google Cloud</span>
+      </div>
+
+      <!-- HTML/CSS/JS -->
+      <div class="logo-item">
+        <img src="assets/html-logo.png" alt="HTML/CSS/JS" width="32" height="32" />
+        <span class="logo-label">HTML/CSS/JS</span>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 Atandiwe Ndamase. All rights reserved.</p>
+      <p class="footer-copy">Cape Town, South Africa</p>
+    </div>
+  </footer>
+
+  <script>
+    // Scroll reveal
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+    reveals.forEach(el => observer.observe(el));
+
+    // Nav active state
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    const navObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navLinks.forEach(link => {
+            link.style.color = '';
+            if (link.getAttribute('href') === '#' + entry.target.id) {
+              link.style.color = 'var(--text)';
+            }
+          });
+        }
+      });
+    }, { threshold: 0.4 });
+    sections.forEach(s => navObserver.observe(s));
+  </script>
+</body>
 </html>
